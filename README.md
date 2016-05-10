@@ -8,3 +8,5 @@ She adapted her code and added Wekinator functionality from the original library
 I have altered the code to only send OSC messages for one finger, the index or pointer finger, for the purposes of later using the Leap Motion for projection art pieces that follow the finger in their movement. There is also a new velocity message sent to be used for added movement in the output code.
 
 Further development will include incorporating both direct following of Leap Motion finger position as well as machine learning of gestures.
+
+You will need to import from the Processing IDE library both the Leap Motion for Processing and oscP5 libraries to run this sketch.
